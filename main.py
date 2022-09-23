@@ -1,7 +1,10 @@
 import speech_recognition as sr 
-import pyttsx3
+# import pyttsx3
 
 listener = sr.Recognizer()
+# roko = pyttsx3.init()
+# voice = roko.getProperty(voice)
+
 
 try:
     with sr.Microphone() as source:
