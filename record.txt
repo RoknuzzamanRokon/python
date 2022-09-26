@@ -1,0 +1,9 @@
+. sounddevice: This module provides functions to play and record NumPy arrays containing audio signals. Let’s install it by running the following command:
+    $ pip3 install sounddevice
+
+. We can use either wavio and scipy to save the recorded audio in file format. We will see both of them here.
+To install wavio:
+    $ pip3 install wavio
+
+. To install scipy:
+    $ pip3 install scipy
