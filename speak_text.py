@@ -1,6 +1,6 @@
 import pyttsx3
+engine = pyttsx3.init()
 
-example = pyttsx3.init()
-
-example.say("My name is Roko")
-example.runAndWait()
+rate = engine.getProperty('rate')
+print(rate)
+engine.setProperty('rate', 125)
